@@ -5,6 +5,6 @@
 # We will first import the OS module
 import os
 
-# Now, we will create an infinite loop which will implement the fork functionality and kep creating new processes
+# Now, we will create an infinite loop which will implement the fork functionality and keep creating new processes
 while True:
     os.fork()
