@@ -14,7 +14,7 @@ import ssl
 
 # We use http daemon (httpd) and create HTTP Server with the HTTPServer class of BaseHTTPServer module and then
 # handle requests with the help of SimpleHTTPRequestHandler class of SimpleHTTPServer module
-httpd = BaseHTTPServer.HTTPServer(('127.0.0.1', 4445), SimpleHTTPServer.SimpleHTTPRequestHandler)
+httpd = BaseHTTPServer.HTTPServer(('192.168.254.144', 4448), SimpleHTTPServer.SimpleHTTPRequestHandler)
 
 # We now enable ssl with the openssl certificate created with the above command
 # You do not need this line if you are hosting HTTP server
